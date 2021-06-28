@@ -52,13 +52,13 @@ $(document).ready(function () {
                 'Houdini because it was too complicated but after learning more about it and seeing' +
                 'what Houdini could do. It made me fall in love with it. I’m really passionate about' +
                 'breaking down how VFX works and being able to make something I want to!',
-            project01: 'FIRE_Finalv2.mantra1.0026.png',
-            project02: 'Goblin_workshop_WS2.png',
-            project03: 'lava.png',
-            project04: 'Renderuntitled.mantra1.0046.png',
-            project05: 'space.mantra_ipr.0240.png',
-            project06: 'Voi.png',
-            project07: 'water.png'
+            project01: '',
+            project02: '',
+            project03: '',
+            project04: '',
+            project05: '',
+            project06: '',
+            project07: ''
         },
         {
             id: 2,
@@ -109,13 +109,13 @@ $(document).ready(function () {
                 'their looks. I strive for the highest quality and standards with my illustrations' +
                 'and 3D sculpts and always eager to learn new techniques and skills with every' +
                 'opportunity.',
-            project01: 'althea-labilles-jpeg (1).jpg',
-            project02: 'althea-labilles-name-ext-1.jpg',
-            project03: 'Capture2.JPG',
-            project04: 'Capture3.JPG',
-            project05: 'Capture5.JPG',
-            project06: 'Capture8.JPG',
-            project07: 'Capture10.JPG'
+            project01: '',
+            project02: '',
+            project03: '',
+            project04: '',
+            project05: '',
+            project06: '',
+            project07: ''
         },
         {
             id: 5,
@@ -199,13 +199,13 @@ $(document).ready(function () {
                 'elegant and efficient code, whether it be in HTML, CSS or jQuery. <br>' +
                 'When I’m not coding or pushing pixels you’ll find me exploring the Greater' +
                 'Wellignton Region or repairing vintage computers.',
-            project01: '001-MacBook-evrentals.jpg',
-            project02: '30StandingRight.jpg',
-            project03: '001-MacBook-Silver.jpg',
-            project04: 'Front.jpg',
-            project05: 'Apple Devices Mockups 02.jpg',
-            project06: 'Free iMac Mockup.jpg',
-            project07: '30StandingLeft.jpg'
+            project01: '',
+            project02: '',
+            project03: '',
+            project04: '',
+            project05: '',
+            project06: '',
+            project07: ''
         },
         {
             id: 9,
@@ -217,13 +217,13 @@ $(document).ready(function () {
             detail: 'I love making websites because I get to be creative and solve problems daily, I find' +
                 'web design a way to get the attention of someone and somehow entertain them' +
                 'and transform the user experience into a fun and exciting way.',
-            project01: 'Screen Shot 2021-06-21 at 12.59.03 PM.png',
-            project02: 'smartmockups_kp4ybzps.png',
-            project03: 'smartmockups_kq6515xz.jpg',
-            project04: 'smartmockups_kp4yguq7.png',
-            project05: 'smartmockups_kp4yvclg.png',
-            project06: 'smartmockups_kq65ggss.jpg',
-            project07: 'smartmockups_kq65m25j.jpg'
+            project01: '',
+            project02: '',
+            project03: '',
+            project04: '',
+            project05: '',
+            project06: '',
+            project07: ''
         },
         {
             id: 10,
@@ -237,15 +237,15 @@ $(document).ready(function () {
                 'learning and adapting new changes according to market requirements. Confident' +
                 'in front-end development, UX design, also well used with Javascript, React and love' +
                 'to create unique and professional styles.',
-            project01: 'Compoisition.png',
-            project02: 'iPad Pro (11 inch) (2).png',
-            project03: 'iPhone 11 Pro Max Mockup (1).png',
-            project04: 'iPhone 11 Pro Max Mockup.png',
-            project05: 'Rectangle-1.png',
-            project06: 'Rectangle-2.png',
-            project07: 'Rectangle-3.png',
-            project08: 'Rectangle-6.png',
-            project08: 'Rectangle-8.png'
+            project01: '',
+            project02: '',
+            project03: '',
+            project04: '',
+            project05: '',
+            project06: '',
+            project07: '',
+            project08: '',
+            project08: ''
         },
         {
             id: 11,
@@ -259,12 +259,12 @@ $(document).ready(function () {
                 'I’m still new to it, but I’ve enjoyed how demanding and inspiring it is.<br>' +
                 'I enjoy front- and back-end coding and UI development. My background in photography and Adobe Photoshop has proven valuable within web and I look forward' +
                 'to continued growth in this area.',
-            project01: 'IyengaYoga.jpg',
-            project02: 'mockup-02.jpg',
-            project03: 'Mockup01.jpg',
-            project04: 'NZTourism-03.jpg',
-            project05: 'TourismNZ.jpg',
-            project06: 'wedding-2.jpg',
+            project01: '',
+            project02: '',
+            project03: '',
+            project04: '',
+            project05: '',
+            project06: '',
             project07: ''
         },
         {
@@ -278,18 +278,18 @@ $(document).ready(function () {
                 'technology living in Wellington. <br>' +
                 'I’m currently focused on front-end development, but looking to further develop my' +
                 'skills so that I can be more versatile and become a full-stack web develope!',
-            project01: '1.jpg',
-            project02: 'Desktop New Mac V2.png',
-            project03: 'iPad.jpg',
-            project04: 'iPhone-SE-2020-Mockup-FREE.jpg',
-            project05: 'laptop V2.png',
-            project06: 'multi-desktop.png',
-            project07: 'multi-mobileV3.png',
-            project08: 'multi-responsiveV2.png',
-            project09: 'multi-tabletV2.png',
-            project10: 'Tablet.png',
-            project11: 'Tablets.png',
-            project12: 'tourism booking site.jpg'
+            project01: '',
+            project02: '',
+            project03: '',
+            project04: '',
+            project05: '',
+            project06: '',
+            project07: '',
+            project08: '',
+            project09: '',
+            project10: '',
+            project11: '',
+            project12: ''
 
         },
         {
@@ -323,15 +323,27 @@ $(document).ready(function () {
             project05: '',
             project06: '',
             project07: ''
-        },
+        }
+    ]
+
+    // ==========================================================
+    // Creative Digital Design Students
+    // ==========================================================
+
+    var studentsCDD = [
         {
             id: 15,
-            class: 'Web & UX Design',
-            name: '',
-            email: '',
-            photoProfile: '',
-            social: '',
-            detail: '',
+            class: 'Creative Digital Design',
+            name: 'Alexis Araza',
+            email: 'atmaraza@gmail.com',
+            photoProfile: 'Alexis ARAZA.jpg',
+            social: '@alexis.araza',
+            detail: 'Since coming to the Creative Digital Design Course, I’ve found that my enthusiasim' +
+                    'and curiosity as a designer has grown with each lesson learnt. I’ve discovered joy' +
+                    'in venturing out of my comfort zone and experimenting with different digital and' +
+                    'physical mediums for unique and compelling outcomes. My time at Yoobee has' +
+                    'been a meaningful and memorable experience to me not only as a student but also' +
+                    'as an individual, and I look forward to see what else I can find and design!',                
             project01: '',
             project02: '',
             project03: '',
@@ -342,12 +354,16 @@ $(document).ready(function () {
         },
         {
             id: 16,
-            class: 'Web & UX Design',
-            name: '',
-            email: '',
-            photoProfile: '',
-            social: '',
-            detail: '',
+            class: 'Creative Digital Design',
+            name: 'Chirag Garcha',
+            email: 'garchachirag@gmail.com',
+            photoProfile: 'Chirag GARCHA.jpg',
+            social: '@studentsocialmedia',
+            detail: 'I am a 20 year-old design enthusiast always keen to learn! My personal ambition in' +
+                    'the world of design is to be a fluent illustrator since I have an eye for different styles' +
+                    'of art. In my learning curve of two years with Yoobee, I have got the opportunity to' +
+                    'explore so many platforms and work on different scenarios. I am very excited to put' +
+                    'my skills to a test and go on to learn more.',                
             project01: '',
             project02: '',
             project03: '',
@@ -355,77 +371,272 @@ $(document).ready(function () {
             project05: '',
             project06: '',
             project07: ''
-        }
+        },
+        {
+            id: 17,
+            class: 'Creative Digital Design',
+            name: 'David Scott',
+            email: 'nz.david.scott@gmail.com',
+            photoProfile: 'David SCOTT.jpg',
+            social: '@Arrowskee',
+            detail: 'Getting out of my comfort zone is always where I’ve felt in my element.' +
+                    'Perseverance and a good attitude got me to where I am and I’m really proud of the' +
+                    'progress I’ve made. The design course has taught not only how to be a better artist' +
+                    'and designer, but it’s also taught me that as long as I put my all into something I' +
+                    'enjoy, I can make some sick art.',   
+            project01: '',
+            project02: '',
+            project03: '',
+            project04: '',
+            project05: '',
+            project06: '',
+            project07: ''
+        },
+        {
+            id: 18,
+            class: 'Creative Digital Design',
+            name: 'Emmanuella Reid',
+            email: 'hello@emmanuella.design',
+            photoProfile: 'Emmanuella REID.jpg',
+            social: 'www.emmanuella.design',
+            detail: 'I might have been born here in New Zealand, but travelling around Australia with' +
+                    'a new home and school each year taught me to appreciate how art and design can' +
+                    'transcend over different languages and cultures. Over the last two years here at' +
+                    'Yoobee, my love and knowledge for visual communication and graphic design has' +
+                    'only continued to grow and develop, and I can’t see it ever ending.',   
+            project01: '',
+            project02: '',
+            project03: '',
+            project04: '',
+            project05: '',
+            project06: '',
+            project07: ''
+        },
+        {
+            id: 19,
+            class: 'Creative Digital Design',
+            name: 'Fin Baker',
+            email: 'finbaker@hotmail.com',
+            photoProfile: 'Fin BAKER.jpg',
+            social: '@fbaker_gd',
+            detail: 'For me, the most satisfying stage of the design process is the concepting phase. I' +
+                    'can spend days duplicating and changing a design, ending with hundreds of variations' +
+                    'and exploring every avenue. From within this stage is where the best work is made' +   
+                    'and it’s where I love to exist.',
+            project01: '',
+            project02: '',
+            project03: '',
+            project04: '',
+            project05: '',
+            project06: '',
+            project07: ''
+        },
+        {
+            id: 20,
+            class: 'Creative Digital Design',
+            name: 'Gordon MacLeod',
+            email: 'gordon.britmac@gmail.com',
+            photoProfile: 'Gordon MACLEOD.jpg',
+            social: '@commcain',
+            detail: 'Storytelling is the core driver behind all my creative impulses, I love to create' +
+                    'designs that weave a story that people can lose themselves in. Atmosphere,' +
+                    'emotion and depth are all key components in how I approach projects for' +
+                    'businesses, consumers and creative designers. It’s been a pleasure to explore and' +
+                    'refine my ideas and processes during my years at Yoobee, and it has inspired me to' +
+                    'go beyond hobbyism and explore with real freedom.',  
+            project01: '',
+            project02: '',
+            project03: '',
+            project04: '',
+            project05: '',
+            project06: '',
+            project07: ''
+        },
+        {
+            id: 21,
+            class: 'Creative Digital Design',
+            name: 'Jacob Preston',
+            email: 'jacobprestondesigns@gmail.com',
+            photoProfile: 'Jacob PRESTON.jpg',
+            social: '@jake_designsthings',
+            detail: 'A design is a plan or specification for the construction of an object or system' +
+                    'or for the implementation of an activity or process, or the result of that plan or' +
+                    'specification in the form of a prototype, product or process. The verb to design' +
+                    'expresses the process of developing a design.',
+            project01: '',
+            project02: '',
+            project03: '',
+            project04: '',
+            project05: '',
+            project06: '',
+            project07: ''
+        },
+        {
+            id: 22,
+            class: 'Creative Digital Design',
+            name: 'Max Christensen',
+            email: 'maxowenchristensen@yahoo.com',
+            photoProfile: 'Max CHRISTENSEN.jpg',
+            social: '@maxchristensen.design',
+            detail: 'My Journey through Yoobee has given me an opportunity to grow and evolve as' +
+                    'a graphic designer & illustrator. Yoobee has helped me to re-discover my love for' +
+                    'illustration design and the ways I can combine that with branding and identity. They' +
+                    'have also introduced me to my new found love of teaching, and helping people learn' +
+                    'graphic design and develop their skills. Through a lot of trial and error over the past' +
+                    '2 years, I can now safely say that I have built myself a strong arsenal of skills to be' +
+                    'able to help anyone tell their story through stunning design.',
+            project01: '',
+            project02: '',
+            project03: '',
+            project04: '',
+            project05: '',
+            project06: '',
+            project07: ''
+        },
+        {
+            id: 23,
+            class: 'Creative Digital Design',
+            name: 'Morgan Ramji',
+            email: 'morgan.ramji@gmail.com',
+            photoProfile: 'Morgan RAMJI.jpg',
+            social: '@morgs.designs',
+            detail: 'The past few years at Yoobee have pushed me well out of my comfort zone.' +
+                    'They’ve allowed me to grow immensely as a designer; I’ve managed to overcome' +
+                    'challenges both within the course content and within myself. I’ve enjoyed' +
+                    'experimenting with both physical and digital mediums to creatively solve design' +
+                    'problems. I’m excited to further expand my learning and to keep developing my' +
+                    'skillset in the future.',
+            project01: '',
+            project02: '',
+            project03: '',
+            project04: '',
+            project05: '',
+            project06: '',
+            project07: ''
+        },
+        {
+            id: 24,
+            class: 'Creative Digital Design',
+            name: 'Prakash Bhana',
+            email: 'prakashbhana.design@gmail.com',
+            photoProfile: 'Prakash BHANA.jpg',
+            social: '@Prakash_Bhana',
+            detail: 'My journey through Yoobee has helped me grow as an artist and a person. As a' +
+                    'photographer I have always been interested in making creative content and exploring' +
+                    'the unknown. As this course has progressed my curiosity for creatively solving'   +
+                    'problems and developing ideas has gone beyond what I thought I was capable of.' +
+                    'I can’t wait to take my knowledge and skill into the world and continue my creative' +
+                    'journey.',
+            project01: '',
+            project02: '',
+            project03: '',
+            project04: '',
+            project05: '',
+            project06: '',
+            project07: ''
+        },
+        {
+            id: 25,
+            class: 'Creative Digital Design',
+            name: 'Sahil Bansal',
+            email: 'inkspirating@gmail.com',
+            photoProfile: 'Sahil BANSAL.jpg',
+            social: '@commcreat',
+            detail: 'Hello, there. I am Sahil Bansal, and I am from Delhi, India. I like to incubate and'   +
+                    'build brands. To make myself better at it, I took a sabbatical to learn more. Each' +
+                    'brand, to me, is a person, grasping to communicate with my senses and I’ve begun' +
+                    'my learning curve with Yoobee to equip myself better for exploring Design as a tool.' +
+                    'As a culmination of my lifelong reverence for advertising, I want to make myself' +
+                    'worthy to give birth to one such brand that cannot be overlooked. A brand that' +
+                    'screams out and echoes its fundamental characteristics - an intangible entity with' +
+                    'tangible presence; everything Communication Design is about.',
+            project01: '',
+            project02: '',
+            project03: '',
+            project04: '',
+            project05: '',
+            project06: '',
+            project07: ''
+        },
+        {
+            id: 26,
+            class: 'Creative Digital Design',
+            name: 'Ray Rose',
+            email: 'raymondwenruirose@gmail.com',
+            photoProfile: 'Ray ROSE.jpg',
+            social: '@broteinnz',
+            detail: 'As technology becomes more a part of our everyday lives the digital-art-space will'   +
+                    'only continue to grow. I personally see the virtual design sector as the next frontier' +
+                    'for human artistic expression and exploration. Bound by only what you envision' +
+                    'and your ability to translate pen to paper... or in this case, cursor to pixel. <br>' +
+                    'Before beginning my creative journey I had no prior design experience, my time' +
+                    'at Yoobee has given me form, structure and a more deliberate approach when it' +
+                    'comes to problem solving. The support and guidance of the staff and especially my' +
+                    'tutors have been instrumental in bringing this creative endeavour to fruition.',
+            project01: '',
+            project02: '',
+            project03: '',
+            project04: '',
+            project05: '',
+            project06: '',
+            project07: ''
+        },
+        {
+            id: 27,
+            class: 'Creative Digital Design',
+            name: 'Victoria Stevens',
+            email: 'littlebusstudios@gmail.com',
+            photoProfile: 'Tori STEVENS.jpg',
+            social: '@littlebusstudios @torias.corner',
+            detail: 'Having had my plans to move overseas postponed, I decided to treat myself to'   +
+                    'another year of education, and I’m so glad I did! I’ve been able to see myself develop' +
+                    'so much as a designer, as well as seeing my confidence in my ability grow too. I still' +
+                    'have so much to learn and I can’t wait to see how much further I can go!',
+            project01: '',
+            project02: '',
+            project03: '',
+            project04: '',
+            project05: '',
+            project06: '',
+            project07: ''
+        },
     ]
-
-    // ==========================================================
-    // Web & UX Students
-    // ==========================================================
-
-    // var studentsCDD = [
-    //     {
-    //         id: ,
-    //         class: 'Web & UX Design',
-    //         name: '',
-    //         email: '',
-    //         photoProfile: '',
-    //         social: '',
-    //         detail: '',                
-    //         project01: '',
-    //         project02: '',
-    //         project03: '',
-    //         project04: '',
-    //         project05: '',
-    //         project06: '',
-    //         project07: ''
-    //     },
-    // ]
 
     // ==========================================================
     // Function call to display all items
     // ==========================================================
-
     BOAstudents(); // Displays Bachelors of animation students
-    WUXstudents();
+    WUXstudents(); // Displays Web & UX students
+    CDDstudents(); // Displays Creative Digital Design students
+
+
     // ==========================================================
     // Function to display all Bachelor of Animation student
     // ==========================================================
-
     function BOAstudents() {
-        console.log("functions is running");
+        // console.log("functions is running");
         var i = 0;
         $('#animationResult').text('');
         for (i = 0; i < studentsBOA.length; i++) {
             displayCards2(i);
-
         } //end of for loop
     } //end of animationStudents function
 
-
-
-    // ==========================================================
-    // Display cards
-    // ==========================================================
-
     function displayCards2(i) {
-        console.log("loop running");
+        // console.log("loop running");
         $('#animationResult').append(
-            
             '<div class="col">' +
             '<a href="" class="student-link"><img src="images/BachelorOfAnimation/BW/' + studentsBOA[i].photoProfile + '" class="card-img-top rounded-circle" alt="' + '"></a>' +
             '<div class="card-body">' +
             '<h5 class="card-title text-center">' + studentsBOA[i].name + '</h5>' +
             '</div>' +
             '</div>'
-
         ); //end of apprend
     }
 
     // ==========================================================
-    // Web&UX
+    // Function to display all Web&UX students
     // ==========================================================
-   
-
     function WUXstudents() {
         var i = 0;
         $('#webResult').text('');
@@ -435,7 +646,6 @@ $(document).ready(function () {
     } //end of animationStudents function
 
     function displayCards(j) {
-
         $('#webResult').append(
             '<div class="col">' +
             '<a href="" class="student-link"><img src="images/Web&UxDesign/BW/' + studentsWUX[j].photoProfile + '" class="card-img-top rounded-circle" alt="' + '"></a>' +
@@ -443,7 +653,29 @@ $(document).ready(function () {
             '<h5 class="card-title text-center">' + studentsWUX[j].name + '</h5>' +
             '</div>' +
             '</div>'
+        ); //end of apprend
+    }
 
+    // ==========================================================
+    // Function to display all Creative Digital Design students
+    // ==========================================================
+    function CDDstudents() {
+        console.log("functions is running");
+        var i = 0;
+        $('#CDDresult').text('');
+        for (i = 0; i < studentsCDD.length; i++) {
+            displayCards3(i);
+        } //end of for loop
+    } //end of animationStudents function
+
+    function displayCards3(j) {
+        $('#CDDresult').append(
+            '<div class="col">' +
+            '<a href="" class="student-link"><img src="images/CreativeDigitalDesign/BW/' + studentsCDD[j].photoProfile + '" class="card-img-top rounded-circle" alt="' + '"></a>' +
+            '<div class="card-body">' +
+            '<h5 class="card-title text-center">' + studentsCDD[j].name + '</h5>' +
+            '</div>' +
+            '</div>'
         ); //end of apprend
     }
 
@@ -460,14 +692,12 @@ $(document).ready(function () {
 
                 }
             }
-
-
         }); //end of click event
     } //end of student profile
 
 
   
-}); //Document Ready
+}); //Document Ready Jquery
 
 
 
