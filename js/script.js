@@ -626,7 +626,7 @@ $(document).ready(function () {
         // console.log("loop running");
         $('#animationResult').append(
             '<div class="col">' +
-            '<a href="" class="student-link"><img src="images/BachelorOfAnimation/BW/' + studentsBOA[i].photoProfile + '" class="card-img-top rounded-circle" alt="' + '"></a>' +
+            '<a href="" class="student-link"><img src="images/BachelorOfAnimation/BW/' + studentsBOA[i].photoProfile + '" class="card-img-top rounded-circle border border border-5 border-light" alt="' + '"></a>' +
             '<div class="card-body">' +
             '<h5 class="card-title text-center">' + studentsBOA[i].name + '</h5>' +
             '</div>' +
@@ -647,11 +647,18 @@ $(document).ready(function () {
 
     function displayCards(j) {
         $('#webResult').append(
+
             '<div class="col" >' +
-            '<a href="" class="student-link"><img src="images/Web&UxDesign/BW/' + studentsWUX[j].photoProfile + '" class="card-img-top rounded-circle" alt="' + '"></a>' +
-            '<div class="card-body " data-bs-toggle="modal" data-bs-target=#'+ studentsWUX[j].name.replace(/ /g, "") +'>' +
-            '<h5 class="card-title text-center">'+studentsWUX[j].name+'</h5>' +
-            '</div>' +
+              '<a href="" class="student-link"><img src="images/Web&UxDesign/BW/' + studentsWUX[j].photoProfile + '" class="card-img-top rounded-circle" alt="' + '"></a>' +
+              '<div class="card-body " data-bs-toggle="modal" data-bs-target=#'+ studentsWUX[j].name.replace(/ /g, "") +'>' +
+                '<h5 class="card-title text-center">'+studentsWUX[j].name+'</h5>' +
+
+                '<div class="col">' +
+                '<a href="" class="student-link"><img src="images/Web&UxDesign/BW/' + studentsWUX[j].photoProfile + '" class="card-img-top rounded-circle border border border-5 border-light" alt="' + '"></a>' +
+                '<div class="card-body">' +
+                '<h5 class="card-title text-center">' + studentsWUX[j].name + '</h5>' +
+
+              '</div>' +
             '</div>'+
 
 
@@ -739,7 +746,7 @@ $(document).ready(function () {
     function displayCards3(j) {
         $('#CDDresult').append(
             '<div class="col">' +
-            '<a href="" class="student-link"><img src="images/CreativeDigitalDesign/BW/' + studentsCDD[j].photoProfile + '" class="card-img-top rounded-circle" alt="' + '"></a>' +
+            '<a href="" class="student-link"><img src="images/CreativeDigitalDesign/BW/' + studentsCDD[j].photoProfile + '" class="card-img-top rounded-circle border border border-5 border-light" alt="' + '"></a>' +
             '<div class="card-body">' +
             '<h5 class="card-title text-center">' + studentsCDD[j].name + '</h5>' +
             '</div>' +
