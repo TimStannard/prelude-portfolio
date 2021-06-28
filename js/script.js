@@ -647,12 +647,80 @@ $(document).ready(function () {
 
     function displayCards(j) {
         $('#webResult').append(
-            '<div class="col">' +
+            '<div class="col" >' +
             '<a href="" class="student-link"><img src="images/Web&UxDesign/BW/' + studentsWUX[j].photoProfile + '" class="card-img-top rounded-circle" alt="' + '"></a>' +
-            '<div class="card-body">' +
-            '<h5 class="card-title text-center">' + studentsWUX[j].name + '</h5>' +
+            '<div class="card-body " data-bs-toggle="modal" data-bs-target=#'+ studentsWUX[j].name.replace(/ /g, "") +'>' +
+            '<h5 class="card-title text-center">'+studentsWUX[j].name+'</h5>' +
             '</div>' +
-            '</div>'
+            '</div>'+
+
+
+            '<div class="modal fade clearMP" id='+studentsWUX[j].name.replace(/ /g, "")+' tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">'+
+            '<div class="modal-dialog modal-fullscreen">'+
+            '<div class="modal-content">'+
+              '<div class="modal-header">'+
+                '<h3 class="modal-title" id="staticBackdropLabel">'+studentsWUX[j].name+'</h3>'+
+                '<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>'+
+             ' </div>'+
+             '<div class="modal-body">'+
+
+             '<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">'+
+             '<ol class="carousel-indicators">'+
+               '<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>'+
+               '<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>'+
+               '<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>'+
+             '</ol>'+
+             '<div class="carousel-inner">'+
+               '<div class="carousel-item active">'+
+                 '<img class="d-block w-100" src="..." alt="First slide">'+
+               '</div>'+
+               '<div class="carousel-item">'+
+                 '<img class="d-block w-100" src="..." alt="Second slide">'+
+               '</div>'+
+               '<div class="carousel-item">'+
+                 '<img class="d-block w-100" src="..." alt="Third slide">'+
+               '</div>'+
+             '</div>'+
+             '<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">'+
+               '<span class="carousel-control-prev-icon" aria-hidden="true"></span>'+
+               '<span class="sr-only">Previous</span>'+
+             '</a>'+
+             '<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">'+
+               '<span class="carousel-control-next-icon" aria-hidden="true"></span>'+
+               '<span class="sr-only">Next</span>'+
+             '</a>'+
+           '</div>'+
+
+
+                '<div class="container">'+
+                '<div class="row">'+
+                    '<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">'+
+                      '<img class="student_image" src="images/Web&UxDesign/BW/' + studentsWUX[j].photoProfile + '" alt="">'+
+                    '</div>'+
+                    '<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 aboutContainer">'+
+                      '<h4>About</h4>'+
+                      '<p>'+ studentsWUX[j].detail +'</p>'+
+            
+                        '<h4>Contact Links</h4>'+
+                        '<ul>'+
+                          '<li>'+ studentsWUX[j].social +'</li>'+
+                          '<li>Lorem Ipsum</li>'+
+                          '<li>Lorem Ipsum</li>'+
+                          '<li>Lorem Ipsum</li>'+
+                        '</ul>'+
+                    '</div>'+
+                  '</div>'+
+                '</div>'+
+              '</div>'+
+            //   '<div class="modal-footer">'+
+            //     '<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>'+
+            //     '<button type="button" class="btn btn-primary">Understood</button>'+
+            //   '</div>'+
+            '</div>'+
+          '</div>'+
+          '</div>'
+
+
         ); //end of apprend
     }
 

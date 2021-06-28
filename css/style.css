@@ -1,3 +1,8 @@
+*{
+  padding:0;
+  margin: 0;
+}
+
 .front-page {
   overflow-x: hidden;
   overflow-y: hidden;
@@ -441,3 +446,7 @@ margin: 0;
       opacity: 1;
     }
 
+    .clearMP{
+      padding: 0 !important;
+      margin: 0 !important;
+    }
