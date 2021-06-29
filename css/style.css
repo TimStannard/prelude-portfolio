@@ -117,12 +117,37 @@
       text-decoration: none;
     }
 
-    .CDDheading:hover,
+    /* .CDDheading:hover,
     .WUXheading:hover, 
     .BOAheading:hover {
       color: black;
       cursor: pointer;
+    } */
+
+                 /* hover div to show subheading*/
+
+    .triangle .triangle-2021, .left .left-2021, .right .right-2021{
+      display: none;
+     }
+
+     .triangle:hover .triangle-2021, .left:hover .left-2021, .right:hover .right-2021 {
+      display: inline-block;
     }
+
+    /* hover div to get pointer */
+
+    .triangle:hover, .left:hover, .right:hover {
+      cursor: pointer;
+    }
+
+        /* hover div to change font weight*/
+
+    .triangle:hover .CDDheading, .left:hover .BOAheading, .right:hover .WUXheading {
+      font-weight: bold;
+    }
+
+
+
 
 
     .container {
@@ -181,6 +206,10 @@
       opacity:0.2!important;
     }
 
+    .spaces {
+      display: none;
+    }
+
       /* students page madia quaries borders  */
 
       @media only screen and (max-width: 1700px) {
@@ -196,6 +225,56 @@
           display: none;
         }
       }
+
+
+            /* Home page madia quaries  */
+
+      @media only screen and (max-width: 1200px) {
+        .WUXheading, .BOAheading, .CDDheading {
+         margin-top: 200px;
+         display: none;
+         font-size: 38px;
+         color: white;
+         text-decoration: none;
+       }
+
+       .spaces {
+         display: block;
+       }
+     }
+
+     @media only screen and (max-width: 400px) {
+           .WUXheading, .BOAheading, .CDDheading {
+           margin-top: 200px;
+           display: none;
+           font-size: 28px;
+           color: white;
+           text-decoration: none;
+         }
+
+         .spaces {
+           display: block;
+         }
+
+         .triangle {
+           width: 120vw;
+           height: 393px;
+           /* height: 400px; */
+           background: purple;
+           clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+           position: absolute;
+           bottom: 0%;
+           left: -10%;
+           color: white;
+           background-image: url(../images/CDDbackgorund72.png);
+           background-position: center;
+           background-repeat: no-repeat;
+           background-size: cover;
+       }
+    }
+
+
+
 
 
     /* -------------- single student template -------------- */
@@ -238,7 +317,6 @@
       background-color: rgba(147, 214, 223, 0.6);
       position: relative;
       line-height: 40px;
-      font-weight: bold;
     }
     .WUX-nav ul {
         padding: 10px 0;
@@ -256,7 +334,6 @@
       background-color: rgba(137, 79, 159, 0.6);
       position: relative;
       line-height: 40px;
-      font-weight: bold;
     }
     .CDD-nav ul {
         padding: 10px 0;
@@ -274,7 +351,6 @@
       background-color: rgba(227, 123, 76, 0.6);
       position: relative;
       line-height: 40px;
-      font-weight: bold;
     }
     .BOA-nav ul {
         padding: 10px 0;
@@ -290,7 +366,7 @@
       text-decoration: none;
     }
     .nav-link:hover {
-      text-decoration: underline;
+      font-weight: bold;
       color: #fff;
     }
     .nav-left {
