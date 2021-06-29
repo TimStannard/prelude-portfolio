@@ -1,33 +1,3 @@
-// var slideIndex = 1;
-// showSlides(slideIndex);
-
-// function plusSlides(n) {
-//   showSlides(slideIndex += n);
-// }
-
-// function currentSlide(n) {
-//   showSlides(slideIndex = n);
-// }
-
-// function showSlides(n) {
-//   var i;
-//   var slides = document.getElementsByClassName("mySlides");
-//   var dots = document.getElementsByClassName("demo");
-//   var captionText = document.getElementById("caption");
-//   if (n > slides.length) {slideIndex = 1}
-//   if (n < 1) {slideIndex = slides.length}
-//   for (i = 0; i < slides.length; i++) {
-//       slides[i].style.display = "none";
-//   }
-//   for (i = 0; i < dots.length; i++) {
-//       dots[i].className = dots[i].className.replace(" active", "");
-//   }
-//   slides[slideIndex-1].style.display = "block";
-//   dots[slideIndex-1].className += " active";
-//   captionText.innerHTML = dots[slideIndex-1].alt;
-// }
-
-
 $(document).ready(function () {
 
     $('#full-screen').click(function () {
@@ -52,13 +22,13 @@ $(document).ready(function () {
                 'Houdini because it was too complicated but after learning more about it and seeing' +
                 'what Houdini could do. It made me fall in love with it. I’m really passionate about' +
                 'breaking down how VFX works and being able to make something I want to!',
-            project01: '',
-            project02: '',
-            project03: '',
-            project04: '',
-            project05: '',
-            project06: '',
-            project07: ''
+            project01: '01-caleb-01.png',
+            project02: '01-caleb-02.png',
+            project03: '01-caleb-03.png',
+            project04: '01-caleb-04.png',
+            project05: '01-caleb-05.png',
+            project06: '01-caleb-06.png',
+            project07: '01-caleb-07.png'
         },
         {
             id: 2,
@@ -72,13 +42,13 @@ $(document).ready(function () {
                 'designer, editor and writer. <br>' +
                 'In the future I am aiming to work as an Independant Content Creator, and self' +
                 'publish my own original Comics, Music & Animated content.',
-            project01: '',
-            project02: '',
-            project03: '',
-            project04: '',
-            project05: '',
-            project06: '',
-            project07: ''
+            project01: '01-dwight-01.jpg',
+            project02: '01-dwight-02.jpeg',
+            project03: '01-dwight-03.jpg',
+            project04: '01-dwight-04.jpg',
+            project05: '01-dwight-05.png',
+            project06: '01-dwight-06.jpg',
+            project07: '01-dwight-07.jpg'
         },
         {
             id: 3,
@@ -89,13 +59,13 @@ $(document).ready(function () {
             social: '@lemonessia',
             detail: 'I am an aspiring illustrator, writer and character modeler. I also enjoy taking long' +
                 'naps in the sun, and being ignored by my cat.',
-            project01: '',
-            project02: '',
-            project03: '',
-            project04: '',
-            project05: '',
-            project06: '',
-            project07: ''
+            project01: '01-elabilles-01.jpg',
+            project02: '01-elabilles-02.jpg',
+            project03: '01-elabilles-03.jpg',
+            project04: '01-elabilles-04.jpg',
+            project05: '01-elabilles-05.jpg',
+            project06: '01-elabilles-06.jpg',
+            project07: '01-elabilles-07.jpg'
         },
         {
             id: 4,
@@ -109,13 +79,13 @@ $(document).ready(function () {
                 'their looks. I strive for the highest quality and standards with my illustrations' +
                 'and 3D sculpts and always eager to learn new techniques and skills with every' +
                 'opportunity.',
-            project01: '',
-            project02: '',
-            project03: '',
-            project04: '',
-            project05: '',
-            project06: '',
-            project07: ''
+            project01: '01-elabilles-01.jpg',
+            project02: '01-elabilles-02.jpg',
+            project03: '01-elabilles-03.JPG',
+            project04: '01-elabilles-04.JPG',
+            project05: '01-elabilles-05.JPG',
+            project06: '01-elabilles-06.JPG',
+            project07: '01-elabilles-07.JPG'
         },
         {
             id: 5,
@@ -129,13 +99,13 @@ $(document).ready(function () {
                 'artwork, for example comics and storyboarding, I like using colour theory to' +
                 'portray mood and composition to further communicate character emotions. Mixing' +
                 '2D and 3D assets is a personal project to find creative ways to tell visual stories.',
-            project01: '',
-            project02: '',
-            project03: '',
-            project04: '',
-            project05: '',
-            project06: '',
-            project07: ''
+            project01: '01-rae-01.png',
+            project02: '01-rae-02.png',
+            project03: '01-rae-03.png',
+            project04: '01-rae-04.png',
+            project05: '01-rae-05.png',
+            project06: '01-rae-06.png',
+            project07: '01-rae-07.png'
         },
         {
             id: 6,
@@ -152,13 +122,13 @@ $(document).ready(function () {
                 'to make things work, finding the intersection between function and form. By using' +
                 'my passion, I am able to translate that into my level designs, creating levels that are' +
                 'both intuitive to use, and fun to engage with.',
-            project01: '',
-            project02: '',
-            project03: '',
-            project04: '',
-            project05: '',
-            project06: '',
-            project07: ''
+            project01: '01-seth-01.jpg',
+            project02: '01-seth-02.png',
+            project03: '01-seth-03.png',
+            project04: '01-seth-04.png',
+            project05: '01-seth-05.PNG',
+            project06: '01-seth-06.jpg',
+            project07: '01-seth-07.jpg'
         },
         {
             id: 7,
@@ -171,13 +141,13 @@ $(document).ready(function () {
                 'experimenting with visuals styles to create spome unique in order ot enhance' +
                 'the stories I tell. My main focus is in 2D but I greatly enjoy working with 3D' +
                 'and combining the two.<br>',
-            project01: '',
-            project02: '',
-            project03: '',
-            project04: '',
-            project05: '',
-            project06: '',
-            project07: ''
+            project01: '01-tim-01.jpg',
+            project02: '01-tim-02.jpg',
+            project03: '01-tim-03.jpg',
+            project04: '01-tim-04.png',
+            project05: '01-tim-05.png',
+            project06: '01-tim-06.png',
+            project07: '01-tim-07.jpg'
         }
     ];
 
@@ -237,15 +207,13 @@ $(document).ready(function () {
                 'learning and adapting new changes according to market requirements. Confident' +
                 'in front-end development, UX design, also well used with Javascript, React and love' +
                 'to create unique and professional styles.',
-            project01: '',
-            project02: '',
-            project03: '',
-            project04: '',
-            project05: '',
-            project06: '',
-            project07: '',
-            project08: '',
-            project08: ''
+            project01: '03-muhammed-01.png',
+            project02: '03-muhammed-02.png',
+            project03: '03-muhammed-03.png',
+            project04: '03-muhammed-04.png',
+            project05: '03-muhammed-05.png',
+            project06: '03-muhammed-06.png',
+            project07: '03-muhammed-07.png'
         },
         {
             id: 11,
@@ -259,13 +227,13 @@ $(document).ready(function () {
                 'I’m still new to it, but I’ve enjoyed how demanding and inspiring it is.<br>' +
                 'I enjoy front- and back-end coding and UI development. My background in photography and Adobe Photoshop has proven valuable within web and I look forward' +
                 'to continued growth in this area.',
-            project01: '',
-            project02: '',
-            project03: '',
-            project04: '',
-            project05: '',
-            project06: '',
-            project07: ''
+            project01: '03-natalia-01.png',
+            project02: '03-natalia-02.png',
+            project03: '03-natalia-03.png',
+            project04: '03-natalia-04.png',
+            project05: '03-natalia-05.png',
+            project06: '03-natalia-06.png',
+            project07: '03-natalia-07.png'
         },
         {
             id: 12,
@@ -281,16 +249,10 @@ $(document).ready(function () {
             project01: '03-josh-01.png',
             project02: '03-josh-02.png',
             project03: '03-josh-03.png',
-            project04: '03-josh-04.png',
-            project05: '03-josh-05.png',
-            project06: '03-josh-06.png',
-            project07: '03-josh-07.png',
-            project08: '03-josh-08.png',
-            project09: '03-josh-09.png',
-            project10: '03-josh-10.png',
-            project11: '03-josh-11.png',
-            project12: '03-josh-12.png'
-
+            project04: '03-josh-07.png',
+            project05: '03-josh-08.png',
+            project06: '03-josh-11.png',
+            project07: '03-josh-12.png'
         },
         {
             id: 13,
@@ -344,13 +306,13 @@ $(document).ready(function () {
                     'physical mediums for unique and compelling outcomes. My time at Yoobee has' +
                     'been a meaningful and memorable experience to me not only as a student but also' +
                     'as an individual, and I look forward to see what else I can find and design!',                
-            project01: '',
-            project02: '',
-            project03: '',
-            project04: '',
-            project05: '',
-            project06: '',
-            project07: ''
+            project01: '02-alexis-01.png',
+            project02: '02-alexis-02.png',
+            project03: '02-alexis-03.png',
+            project04: '02-alexis-04.png',
+            project05: '02-alexis-05.png',
+            project06: '02-alexis-06.png',
+            project07: '02-alexis-07.png'
         },
         {
             id: 16,
@@ -364,13 +326,13 @@ $(document).ready(function () {
                     'of art. In my learning curve of two years with Yoobee, I have got the opportunity to' +
                     'explore so many platforms and work on different scenarios. I am very excited to put' +
                     'my skills to a test and go on to learn more.',                
-            project01: '',
-            project02: '',
-            project03: '',
-            project04: '',
-            project05: '',
-            project06: '',
-            project07: ''
+            project01: '02-chirag-01.png',
+            project02: '02-chirag-02.png',
+            project03: '02-chirag-03.png',
+            project04: '02-chirag-04.png',
+            project05: '02-chirag-05.png',
+            project06: '02-chirag-06.png',
+            project07: '02-chirag-07.png'
         },
         {
             id: 17,
@@ -384,13 +346,13 @@ $(document).ready(function () {
                     'progress I’ve made. The design course has taught not only how to be a better artist' +
                     'and designer, but it’s also taught me that as long as I put my all into something I' +
                     'enjoy, I can make some sick art.',   
-            project01: '',
-            project02: '',
-            project03: '',
-            project04: '',
-            project05: '',
-            project06: '',
-            project07: ''
+            project01: '02-david-01.png',
+            project02: '02-david-02.png',
+            project03: '02-david-03.png',
+            project04: '02-david-04.png',
+            project05: '02-david-05.png',
+            project06: '02-david-06.png',
+            project07: '02-david-07.png'
         },
         {
             id: 18,
@@ -404,13 +366,13 @@ $(document).ready(function () {
                     'transcend over different languages and cultures. Over the last two years here at' +
                     'Yoobee, my love and knowledge for visual communication and graphic design has' +
                     'only continued to grow and develop, and I can’t see it ever ending.',   
-            project01: '',
-            project02: '',
-            project03: '',
-            project04: '',
-            project05: '',
-            project06: '',
-            project07: ''
+            project01: '02-emmanuella-01.png',
+            project02: '02-emmanuella-02.png',
+            project03: '02-emmanuella-03.png',
+            project04: '02-emmanuella-04.png',
+            project05: '02-emmanuella-05.png',
+            project06: '02-emmanuella-06.png',
+            project07: '02-emmanuella-07.png'
         },
         {
             id: 19,
@@ -423,13 +385,13 @@ $(document).ready(function () {
                     'can spend days duplicating and changing a design, ending with hundreds of variations' +
                     'and exploring every avenue. From within this stage is where the best work is made' +   
                     'and it’s where I love to exist.',
-            project01: '',
-            project02: '',
-            project03: '',
-            project04: '',
-            project05: '',
-            project06: '',
-            project07: ''
+            project01: '02-fin-01.png',
+            project02: '02-fin-02.png',
+            project03: '02-fin-03.png',
+            project04: '02-fin-04.png',
+            project05: '02-fin-05.png',
+            project06: '02-fin-06.png',
+            project07: '02-fin-07.png'
         },
         {
             id: 20,
@@ -444,13 +406,13 @@ $(document).ready(function () {
                     'businesses, consumers and creative designers. It’s been a pleasure to explore and' +
                     'refine my ideas and processes during my years at Yoobee, and it has inspired me to' +
                     'go beyond hobbyism and explore with real freedom.',  
-            project01: '',
-            project02: '',
-            project03: '',
-            project04: '',
-            project05: '',
-            project06: '',
-            project07: ''
+            project01: '02-gordon-01.png',
+            project02: '02-gordon-02.png',
+            project03: '02-gordon-03.png',
+            project04: '02-gordon-04.png',
+            project05: '02-gordon-05.png',
+            project06: '02-gordon-06.png',
+            project07: '02-gordon-07.png'
         },
         {
             id: 21,
@@ -463,13 +425,13 @@ $(document).ready(function () {
                     'or for the implementation of an activity or process, or the result of that plan or' +
                     'specification in the form of a prototype, product or process. The verb to design' +
                     'expresses the process of developing a design.',
-            project01: '',
-            project02: '',
-            project03: '',
-            project04: '',
-            project05: '',
-            project06: '',
-            project07: ''
+            project01: '02-jacob-01.png',
+            project02: '02-jacob-02.png',
+            project03: '02-jacob-03.png',
+            project04: '02-jacob-04.png',
+            project05: '02-jacob-05.png',
+            project06: '02-jacob-06.png',
+            project07: '02-jacob-07.png'
         },
         {
             id: 22,
@@ -485,13 +447,13 @@ $(document).ready(function () {
                     'graphic design and develop their skills. Through a lot of trial and error over the past' +
                     '2 years, I can now safely say that I have built myself a strong arsenal of skills to be' +
                     'able to help anyone tell their story through stunning design.',
-            project01: '',
-            project02: '',
-            project03: '',
-            project04: '',
-            project05: '',
-            project06: '',
-            project07: ''
+            project01: '02-max-01.png',
+            project02: '02-max-02.png',
+            project03: '02-max-03.png',
+            project04: '02-max-04.png',
+            project05: '02-max-05.png',
+            project06: '02-max-06.png',
+            project07: '02-max-07.png'
         },
         {
             id: 23,
@@ -506,13 +468,13 @@ $(document).ready(function () {
                     'experimenting with both physical and digital mediums to creatively solve design' +
                     'problems. I’m excited to further expand my learning and to keep developing my' +
                     'skillset in the future.',
-            project01: '',
-            project02: '',
-            project03: '',
-            project04: '',
-            project05: '',
-            project06: '',
-            project07: ''
+            project01: '02-morgan-01.png',
+            project02: '02-morgan-02.png',
+            project03: '02-morgan-03.png',
+            project04: '02-morgan-04.png',
+            project05: '02-morgan-05.png',
+            project06: '02-morgan-06.png',
+            project07: '02-morgan-07.jpg'
         },
         {
             id: 24,
@@ -527,13 +489,13 @@ $(document).ready(function () {
                     'problems and developing ideas has gone beyond what I thought I was capable of.' +
                     'I can’t wait to take my knowledge and skill into the world and continue my creative' +
                     'journey.',
-            project01: '',
-            project02: '',
-            project03: '',
-            project04: '',
-            project05: '',
-            project06: '',
-            project07: ''
+            project01: '02-prakash-01.png',
+            project02: '02-prakash-02.png',
+            project03: '02-prakash-03.png',
+            project04: '02-prakash-04.png',
+            project05: '02-prakash-05.png',
+            project06: '02-prakash-06.png',
+            project07: '02-prakash-07.png'
         },
         {
             id: 25,
@@ -550,13 +512,13 @@ $(document).ready(function () {
                     'worthy to give birth to one such brand that cannot be overlooked. A brand that' +
                     'screams out and echoes its fundamental characteristics - an intangible entity with' +
                     'tangible presence; everything Communication Design is about.',
-            project01: '',
-            project02: '',
-            project03: '',
-            project04: '',
-            project05: '',
-            project06: '',
-            project07: ''
+            project01: '02-sahil-01.png',
+            project02: '02-sahil-02.png',
+            project03: '02-sahil-03.png',
+            project04: '02-sahil-04.png',
+            project05: '02-sahil-05.png',
+            project06: '02-sahil-06.png',
+            project07: '02-sahil-07.png'
         },
         {
             id: 26,
@@ -573,13 +535,13 @@ $(document).ready(function () {
                     'at Yoobee has given me form, structure and a more deliberate approach when it' +
                     'comes to problem solving. The support and guidance of the staff and especially my' +
                     'tutors have been instrumental in bringing this creative endeavour to fruition.',
-            project01: '',
-            project02: '',
-            project03: '',
-            project04: '',
-            project05: '',
-            project06: '',
-            project07: ''
+            project01: '02-ray-01.png',
+            project02: '02-ray-02.png',
+            project03: '02-ray-03.png',
+            project04: '02-ray-04.png',
+            project05: '02-ray-05.png',
+            project06: '02-ray-06.png',
+            project07: '02-ray-07.png'
         },
         {
             id: 27,
@@ -592,13 +554,13 @@ $(document).ready(function () {
                     'another year of education, and I’m so glad I did! I’ve been able to see myself develop' +
                     'so much as a designer, as well as seeing my confidence in my ability grow too. I still' +
                     'have so much to learn and I can’t wait to see how much further I can go!',
-            project01: '',
-            project02: '',
-            project03: '',
-            project04: '',
-            project05: '',
-            project06: '',
-            project07: ''
+            project01: '02-tori-01.png',
+            project02: '02-tori-02.png',
+            project03: '02-tori-03.png',
+            project04: '02-tori-04.png',
+            project05: '02-tori-05.png',
+            project06: '02-tori-06.png',
+            project07: '02-tori-07.png'
         },
     ]
 
