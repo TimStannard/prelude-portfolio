@@ -110,10 +110,16 @@
     background-size: cover;
   }
 
+  a {
+    text-decoration: none;
+  }
+
     .CDDheading, .WUXheading, .BOAheading {
       margin-top: 200px;
       display: none;
       font-size: 60px;
+      color: white;
+      text-decoration: none;
     }
 
     .CDDheading:hover,
