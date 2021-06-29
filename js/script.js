@@ -199,13 +199,13 @@ $(document).ready(function () {
                 'elegant and efficient code, whether it be in HTML, CSS or jQuery. <br>' +
                 'When I’m not coding or pushing pixels you’ll find me exploring the Greater' +
                 'Wellignton Region or repairing vintage computers.',
-            project01: '',
-            project02: '',
-            project03: '',
-            project04: '',
-            project05: '',
-            project06: '',
-            project07: ''
+            project01: '03-alexander-01.png',
+            project02: '03-alexander-02.png',
+            project03: '03-alexander-03.png',
+            project04: '03-alexander-04.png',
+            project05: '03-alexander-05.png',
+            project06: '03-alexander-06.png',
+            project07: '03-alexander-07.png'
         },
         {
             id: 9,
@@ -217,13 +217,13 @@ $(document).ready(function () {
             detail: 'I love making websites because I get to be creative and solve problems daily, I find' +
                 'web design a way to get the attention of someone and somehow entertain them' +
                 'and transform the user experience into a fun and exciting way.',
-            project01: '',
-            project02: '',
-            project03: '',
-            project04: '',
-            project05: '',
-            project06: '',
-            project07: ''
+            project01: '03-juan-01.png',
+            project02: '03-juan-02.png',
+            project03: '03-juan-03.png',
+            project04: '03-juan-04.png',
+            project05: '03-juan-05.png',
+            project06: '03-juan-06.png',
+            project07: '03-juan-07.png'
         },
         {
             id: 10,
@@ -278,18 +278,18 @@ $(document).ready(function () {
                 'technology living in Wellington. <br>' +
                 'I’m currently focused on front-end development, but looking to further develop my' +
                 'skills so that I can be more versatile and become a full-stack web develope!',
-            project01: '',
-            project02: '',
-            project03: '',
-            project04: '',
-            project05: '',
-            project06: '',
-            project07: '',
-            project08: '',
-            project09: '',
-            project10: '',
-            project11: '',
-            project12: ''
+            project01: '03-josh-01.png',
+            project02: '03-josh-02.png',
+            project03: '03-josh-03.png',
+            project04: '03-josh-04.png',
+            project05: '03-josh-05.png',
+            project06: '03-josh-06.png',
+            project07: '03-josh-07.png',
+            project08: '03-josh-08.png',
+            project09: '03-josh-09.png',
+            project10: '03-josh-10.png',
+            project11: '03-josh-11.png',
+            project12: '03-josh-12.png'
 
         },
         {
