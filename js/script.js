@@ -648,16 +648,10 @@ $(document).ready(function () {
     function displayCards(j) {
         $('#webResult').append(
 
-            '<div class="col" >' +
-              '<a href="" class="student-link"><img src="images/Web&UxDesign/BW/' + studentsWUX[j].photoProfile + '" class="card-img-top rounded-circle" alt="' + '"></a>' +
-              '<div class="card-body " data-bs-toggle="modal" data-bs-target=#'+ studentsWUX[j].name.replace(/ /g, "") +'>' +
+            '<div class="col" data-bs-toggle="modal" data-bs-target=#'+ studentsWUX[j].name.replace(/ /g, "") +' >' +
+              '<a href="" class="student-link"><img src="images/Web&UxDesign/BW/' + studentsWUX[j].photoProfile + '" class="card-img-top rounded-circle border border border-5 border-light" alt="' + '"></a>' +
+              '<div class="card-body " >' +
                 '<h5 class="card-title text-center">'+studentsWUX[j].name+'</h5>' +
-
-                '<div class="col">' +
-                '<a href="" class="student-link"><img src="images/Web&UxDesign/BW/' + studentsWUX[j].photoProfile + '" class="card-img-top rounded-circle border border border-5 border-light" alt="' + '"></a>' +
-                '<div class="card-body">' +
-                '<h5 class="card-title text-center">' + studentsWUX[j].name + '</h5>' +
-
               '</div>' +
             '</div>'+
 
@@ -730,6 +724,10 @@ $(document).ready(function () {
 
         ); //end of apprend
     }
+
+    $('.student-link').click(function(){
+        event.preventDefault();
+    })// preventing auto refersh
 
     // ==========================================================
     // Function to display all Creative Digital Design students
