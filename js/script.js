@@ -625,6 +625,7 @@ $(document).ready(function () {
     function displayCards2(i) {
         // console.log("loop running");
         $('#animationResult').append(
+            
             '<div class="col">' +
             '<a href="" class="student-link"><img src="images/BachelorOfAnimation/BW/' + studentsBOA[i].photoProfile + '" class="card-img-top rounded-circle border border border-5 border-light" alt="' + '"></a>' +
             '<div class="card-body">' +
@@ -689,7 +690,7 @@ $(document).ready(function () {
             var i = 0;
             for (i = 0; 1 < studentsAnimation.length; i++) {
                 if (parseInt(this.id) === studentsAnimation[i].id) {
-
+                    
                 }
             }
         }); //end of click event
